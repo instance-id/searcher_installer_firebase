@@ -1,0 +1,30 @@
+{
+  "name": "searcher-id-firebase",
+  "description": "Searcher Installer => Web Functionality ",
+  "dependencies": {
+    "firebase-admin": "~8.12.1",
+    "firebase-functions": "^3.6.1",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "request": "^2.88.2",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^7.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "mocha": "^7.1.2",
+    "sinon": "^9.0.2"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --max-warnings=0 .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "private": true
+}
