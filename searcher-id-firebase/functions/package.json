@@ -2,8 +2,8 @@
   "name": "searcher-id-firebase",
   "description": "Searcher Installer => Web Functionality ",
   "dependencies": {
-    "firebase-admin": "~8.12.1",
-    "firebase-functions": "^3.6.1",
+    "firebase-admin": "~11.4.1",
+    "firebase-functions": "^3.24.1",
     "request-promise": "^4.2.5"
   },
   "devDependencies": {
